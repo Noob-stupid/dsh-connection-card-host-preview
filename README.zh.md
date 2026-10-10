@@ -357,6 +357,19 @@ DSH 会在安装时**按版本门控**，不匹配会明确拒绝并说明原因
    （`quiet` 只告知 / `normal` 排队 / `urgent` 插话 / `preempt` 抢占）。
 4. **卸卡片** —— 从连接上移除即可；卡片本身仍然是装着的。
 
+### agent 的 skill 随插件一起装好
+
+装上插件就够了：它通过 DSH 的 skill-provider 通道注册一个 **`connection-card` skill**，
+所以那个实例里**任何 agent** 都能在会话目录里看到这套连接工具怎么用 ——
+不用往 `~/.dsh/skills/` 拷文件，也不用多做一步。
+
+- 文本的唯一出处：[`skills/connection-card.md`](skills/connection-card.md)。
+- 插件加载期间它就在；**卸载插件它就消失**（注册绑定在插件生命周期上）。
+- 内容覆盖：五个宿主工具各自什么时候用、四档紧急度怎么挑
+  （`quiet` 只告知 / `normal` 排队 / `urgent` 插话 / `preempt` 抢占）。
+- 想当**普通本地 skill** 用也行：同一个文件就是一份合法的扁平 skill，
+  拷成 `~/.dsh/skills/connection-card.md` 即可。
+
 ## 配置项
 
 | 设置 | 默认 | 作用 |
