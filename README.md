@@ -2,6 +2,9 @@
 
 [中文](README.zh.md) | **English**
 
+**Contribute:** **[Card & adapter list →](awesome/README.md)** · **[Contribution guide →](awesome/CONTRIBUTING.md)** · **[中文清单](awesome/README.zh.md)**
+<sub>Any ordinary DSH plugin can be listed as a card. One row per PR, with evidence.</sub>
+
 > **Let your DSH sessions see each other, talk to each other, and share tools — without getting in each other's way.**
 
 Running several DSH sessions at once (one researching, one coding, one running experiments)

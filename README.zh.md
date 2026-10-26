@@ -2,6 +2,9 @@
 
 **中文** | [English](README.md)
 
+**参与贡献：** **[卡片与适配插件清单 →](awesome/README.zh.md)** · **[贡献指南 →](awesome/CONTRIBUTING.md)** · **[English list](awesome/README.md)**
+<sub>任何普通 DSH 插件都能进清单当卡片用。一个 PR 一行，带证据。</sub>
+
 > **让 DSH 的多个会话互相看得见、说得上话、共用得上工具 —— 而互不打扰。**
 
 在一个 DSH 里同时开着好几个会话（一个查资料、一个写代码、一个跑实验）是常态，
